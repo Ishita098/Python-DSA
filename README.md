@@ -1,2 +1,2 @@
-# Python-DSA -Recursion
+# Python-DSA
 Python with Data Structures 
