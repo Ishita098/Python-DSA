@@ -15,11 +15,7 @@ class LinkedList:
         self.head = None
         self.tail = None
     
-    def __iter__(self):
-        curNode = self.head
-        while curNode:
-            yield curNode
-            curNode = curNode.next
+    
 
 class Queue:
     def __init__(self):
@@ -69,10 +65,10 @@ class Queue:
 
 
 
-custQueue = Queue()
-custQueue.enqueue(1)
-custQueue.enqueue(2)
-custQueue.enqueue(3)
-print(custQueue)
-print(custQueue.peek())
-print(custQueue)
+# custQueue = Queue()
+# custQueue.enqueue(1)
+# custQueue.enqueue(2)
+# custQueue.enqueue(3)
+# print(custQueue)
+# print(custQueue.peek())
+# print(custQueue)
